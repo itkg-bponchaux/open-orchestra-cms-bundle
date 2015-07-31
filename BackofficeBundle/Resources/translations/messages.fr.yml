@@ -403,6 +403,10 @@ open_orchestra_backoffice:
             google_analytics: Google Analytics
             xiti_free: Xiti Free 7.5
             site_id: Id de site (Google Analytics : Id de suivi / Xiti : paramètre 's')
+        newsletter_registration:
+            title: Bloc d'abonnement à la lettre de diffusion
+            description: Affiche un formulaire d'abonnement à la lettre de diffusion
+            email: Adresse e-mail
     element:
         version:
             create: Nouvelle version

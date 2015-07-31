@@ -403,6 +403,10 @@ open_orchestra_backoffice:
             google_analytics: Google Analytics
             xiti_free: Xiti Free 7.5
             site_id: Site Id (Google Analytics: Tracking id / Xiti: 's' parameter)
+        newsletter_registration:
+            title: Newsletter registration block
+            description: Display a form to register to the newsletter
+            email: Email
     element:
         version:
             create: New version
