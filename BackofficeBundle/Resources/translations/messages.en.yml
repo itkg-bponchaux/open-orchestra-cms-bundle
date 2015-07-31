@@ -286,6 +286,8 @@ open_orchestra_backoffice:
                 list: Keywords
             deleted:
                 list: Trashcan
+            newsletter_subscribers:
+                list: Newsletter subscribers
     block:
         configurable_content:
             title: Configurable content block
@@ -491,3 +493,9 @@ open_orchestra_backoffice:
         deleted:
           name: Name
           updated_at: Deleted at
+        newsletter_subscribers:
+            email: Email
+            firstname: FirstName
+            lastname: LastName
+            company: Company
+            job: Job

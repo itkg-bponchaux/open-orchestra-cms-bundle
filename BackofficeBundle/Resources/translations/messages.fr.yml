@@ -286,6 +286,8 @@ open_orchestra_backoffice:
                 list: Mots-clés
             deleted:
                 list: Corbeille
+            newsletter_subscribers:
+                list: Abonnés lettre de diffusion
     block:
         configurable_content:
             title: Bloc contenu paramétrable
@@ -491,3 +493,9 @@ open_orchestra_backoffice:
         deleted:
           name: Nom
           updated_at: Supprimé le
+        newsletter_subscribers:
+            email: Email
+            firstname: Prénom
+            lastname: Nom
+            company: Société
+            job: Profession

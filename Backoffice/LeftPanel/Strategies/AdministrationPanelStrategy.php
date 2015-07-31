@@ -8,6 +8,7 @@ namespace OpenOrchestra\Backoffice\LeftPanel\Strategies;
  */
 class AdministrationPanelStrategy extends AbstractLeftPanelStrategy
 {
+    const ROLE_ACCESS_NEWSLETTER_SUBSCRIBERS = 'ROLE_ACCESS_NEWSLETTER_SUBSCRIBERS';
     const ROLE_ACCESS_CONTENT_TYPE = 'ROLE_ACCESS_CONTENT_TYPE';
     const ROLE_ACCESS_REDIRECTION = 'ROLE_ACCESS_REDIRECTION';
     const ROLE_ACCESS_API_CLIENT = 'ROLE_ACCESS_API_CLIENT';

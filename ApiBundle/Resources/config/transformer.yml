@@ -31,6 +31,8 @@ parameters:
     open_orchestra_api.transformer.link.class: OpenOrchestra\ApiBundle\Transformer\LinkTransformer
     open_orchestra_api.transformer.api_client.class: OpenOrchestra\ApiBundle\Transformer\ApiClientTransformer
     open_orchestra_api.transformer.api_client_collection.class: OpenOrchestra\ApiBundle\Transformer\ApiClientCollectionTransformer
+    open_orchestra_api.transformer.newsletter_subscriber.class: OpenOrchestra\ApiBundle\Transformer\NewsletterSubscriberTransformer
+    open_orchestra_api.transformer.newsletter_subscriber_collection.class: OpenOrchestra\ApiBundle\Transformer\NewsletterSubscriberCollectionTransformer
 
 services:
     open_orchestra_api.transformer.node:
@@ -191,5 +193,13 @@ services:
             - { name: open_orchestra_api.transformer.strategy}
     open_orchestra_api.transformer.api_client_collection:
         class: %open_orchestra_api.transformer.api_client_collection.class%
+        tags:
+            - { name: open_orchestra_api.transformer.strategy}
+    open_orchestra_api.transformer.newsletter_subscriber:
+        class: %open_orchestra_api.transformer.newsletter_subscriber.class%
+        tags:
+            - { name: open_orchestra_api.transformer.strategy}
+    open_orchestra_api.transformer.newsletter_subscriber_collection:
+        class: %open_orchestra_api.transformer.newsletter_subscriber_collection.class%
         tags:
             - { name: open_orchestra_api.transformer.strategy}

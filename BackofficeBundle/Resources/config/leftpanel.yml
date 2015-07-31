@@ -117,3 +117,10 @@ services:
             - editorial
         tags:
             - { name: open_orchestra_backoffice.left_panel.strategy }
+    open_orchestra_backoffice.left_panel.newsletter_subscribers:
+        class: %open_orchestra_backoffice.left_panel.administration.class%
+        arguments:
+            - newsletter_subscribers
+            - ROLE_ACCESS_NEWSLETTER_SUBSCRIBERS
+        tags:
+            - { name: open_orchestra_backoffice.left_panel.strategy }

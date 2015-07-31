@@ -37,6 +37,7 @@ class LoadRoleData extends AbstractLoadRoleData
         $manager->persist($this->generateRole(AdministrationPanelStrategy::ROLE_ACCESS_SITE));
         $manager->persist($this->generateRole(AdministrationPanelStrategy::ROLE_ACCESS_ROLE));
         $manager->persist($this->generateRole(AdministrationPanelStrategy::ROLE_ACCESS_LOG));
+        $manager->persist($this->generateRole(AdministrationPanelStrategy::ROLE_ACCESS_NEWSLETTER_SUBSCRIBERS));
 
         $manager->flush();
     }
