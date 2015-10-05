@@ -9,6 +9,7 @@ module.exports = {
         'bower_components/jquery-form/jquery.form.js',
         'bower_components/lodash/lodash.js',
         'bower_components/gridstack/src/gridstack.js',
+        'bower_components/bootstrap-tour/build/js/bootstrap-tour.js',
         'web/bundles/openorchestrabackoffice/js/latinise.js'
     ],
     dest: 'web/built/lib.js'
