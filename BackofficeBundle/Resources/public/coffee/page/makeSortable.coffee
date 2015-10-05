@@ -23,6 +23,7 @@ makeSortable = (el, isDuplicable) ->
     start: (event, ui)->
       ui.item.show()  if isDuplicable
     stop: (event, ui)->
+      console.log event
       if isDuplicable and @clone
         $(this).replaceWith(@clone)
         makeSortable el, true
